@@ -11,7 +11,8 @@ O Uhub será um site que utiliza do email acadêmico para verificar a ligação 
 
 ## [ Versões🔄 ]
 - 0.1.0 - Criada página de cadastro de usuário e login.
-- 0.1.1 - ATUAL - Correções de formatação e organização da página
+- 0.1.1 - Correções de formatação e organização da página.
+- 0.1.2 - ATUAL - Corrigido problema de posição com a barra inferior ao utilizar diferentes navegadores.
 
 ## [ Ferramentas Utilizadas🔧 ]
 Como parte do ínicio do projeto serão utilizados HTML e CSS para a base e estilização da página, além de JavaScript para algumas funcionabilidades.<br><br>
