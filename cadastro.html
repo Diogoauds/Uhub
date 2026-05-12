@@ -8,24 +8,25 @@
 </head>
 <body class="corpo_cadastro">
     <header class="titulo"> </header>
+    <a href="login.html"><img src="images/voltar.png" width="70px" class="retorno"></a>
     <div class="cadastro">
-        <h1 id="ti_cadas" style="font-size: 40px;" >CADASTRO</h1>
+        <h1 id="ti_cadas" style="font-size: 40px; margin-top: 5px; margin-bottom: -5px;" >CADASTRO</h1>
         <input type="text" placeholder="Nome Completo" id="nome" required class="campos"><br>
-        <input type="text" placeholder="CPF" id="cpf" required class="campos"><br>
-        <label>Gênero</label>
+        <input type="text" placeholder="CPF" id="cpf" required class="campos" style="margin-bottom: 0px;"><br>
+        
         <div class="container_sexo">
-            <p><input type="radio" name="sexo" value="Masculino" id="sexo" > Masculino</p>
+            <p style="margin-top: 10px;"><input type="radio" name="sexo" value="Masculino" id="sexo" > Masculino</p>
         </div>
        
         <div class="container_sexo">
-            <p><input type="radio" name="sexo" value="Feminino" id="sexo"> Feminino</p>
+            <p style="margin-top: 10px;"><input type="radio" name="sexo" value="Feminino" id="sexo"> Feminino</p>
         </div>
 
         <div class="container_sexo">
-            <p><input type="radio" name="sexo" value="Outro" id="sexo"> Outro</p><br>
-        </div>
+            <p style="margin-top: 10px;"><input type="radio" name="sexo" value="Outro" id="sexo" >Outro</p>
+        </div><br>
 
-        <label>Data de nascimento</label><br>
+        <p style="display: inline-block; border: solid 2px gray; border-radius: 20px; padding: 15px 0px 15px 0px; text-align: center; width: 90px;" >Nascimento</p>
         <input type="text" id="dia" maxlength="2" placeholder="DD" class="data" required>
         <input type="text" id="mes" maxlength="2" placeholder="MM" class="data" required>
         <input type="text" id="ano" maxlength="4" placeholder="YYYY" class="data" required><br>
@@ -34,7 +35,7 @@
         <input type="email" placeholder="E-mail institucional" id="emaili" class="campos" required><br>
         <input type="password" placeholder="Senha" id="senha" class="campos" required><br>
         <input type="password" placeholder="Confirme sua senha" id="csenha" class="campos" required><br>
-        <button class="botao">PROSSEGUIR COM CADASTRO</button>
+        <button class="botao" style="margin-top: 10px;">PROSSEGUIR COM CADASTRO</button>
     </div>
     <footer class="rodape"></footer>
     
