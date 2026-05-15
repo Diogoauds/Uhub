@@ -15,11 +15,13 @@
     </div>
 
     <div class="login">
-        <input type="email" placeholder="E-mail ou Nome de Usuário" required class="campos" ><br>
-        <input type="password" placeholder="Senha" required class="campos" style="margin-bottom: 30px;"><br>
-        <button class="botao" style="margin-bottom: 10px;">ENTRAR</button>
-        <p>Esqueceu sua senha? <a href="" class="link">REDEFINIR SENHA</a></p>
-        <p>Não tem uma conta? <a href="cadastro.html" class="link">CRIE A SUA AQUI</a></p>
+         <form name="login" method="POST" autocomplete="on" action="login.html">
+            <input type="email" placeholder="E-mail ou Nome de Usuário" required class="campos" ><br>
+            <input type="password" placeholder="Senha" required class="campos" style="margin-bottom: 30px;"><br>
+            <button class="botao" style="margin-bottom: 10px;" type="submit">ENTRAR</button>
+            <p>Esqueceu sua senha? <a href="" class="link">REDEFINIR SENHA</a></p>
+            <p>Não tem uma conta? <a href="cadastro.html" class="link">CRIE A SUA AQUI</a></p>
+        </form>
     </div>
     <footer class="rodape"></footer>
 </body>
